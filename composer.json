@@ -11,6 +11,11 @@
             "email": "sam@rmcreative.ru"
         }
     ],
+    "autoload": {
+        "classmap": [
+            "ETwigViewRenderer.php"
+        ]
+    },
     "require": {
         "php": ">=5.1.0",
         "twig/twig": "1.*"
